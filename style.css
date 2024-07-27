@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+
+}
+.nav{
+    background-color: black;
+    height: 100px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+}
+.nav h1{
+    color: gold;
+    font-style: italic;
+}
+.nav h2{
+    color: white;
+}
+#name{
+    color: white
+}
+.image{
+    background-image: url(bowl-spaghetti-with-black-background-that-says-pasta-it_843762-1317.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.body{
+    background-size: cover;
+    height: 400px;
+    width: 1350px;
+    background-color: black;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+}
+.body h2{
+    color: azure;
+}
+.section{
+    color: white;
+}
+.section h2{
+    font-style: italic;
+    margin: 0 o 10px 0;
+    padding: 0;
+}
